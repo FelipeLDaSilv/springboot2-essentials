@@ -15,7 +15,7 @@ public class AnimeController {
     private DateUtil dateUtil;
     @GetMapping(path = "/list")
     public List<Anime> list(){
-        return List.of(new Anime("DBZ"), new Anime("Berserk"), new Anime("Kage no Mago"));
+        return List.of(new Anime("DBZ"), new Anime("Berserk"), new Anime("Kage no Magoww"));
     }
 
 
